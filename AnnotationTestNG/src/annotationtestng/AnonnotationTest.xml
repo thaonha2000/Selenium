@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="First Suite">
+	<test name="First Test">
+		<classes>
+			<class name="annotation.TestAnnotation">
+				<methods>
+					<include name="testOneMethod"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Second Test">
+		<classes>
+			<class name="annotation.TestAnnotation">
+				<methods>
+					<include name="testTwoMethod"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
